@@ -1,9 +1,14 @@
 html {
-  font-family: 'Merriweather', serif;
+  font-family: Merriweather, serif;
 }
 
 table {
   border: 1px solid #ccc;
+  min-width: 50em;
+}
+
+td {
+  height: 9.8rem;
 }
 
 th,
@@ -37,12 +42,4 @@ td {
   border: 1px solid #38448e;
   color: #1d38da;
   border-radius: 8px;
-}
-
-table {
-  min-width: 50em;
-}
-
-td {
-  height: 9.8rem;
 }
